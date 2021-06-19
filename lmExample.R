@@ -5,4 +5,6 @@ fit = lm(y ~ x)
 
 summary(fit)
 
+plot(x,y)
+abline(fit, col=2)
 
